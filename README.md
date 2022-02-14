@@ -16,4 +16,4 @@ The “Congratulations” page appears, when the puzzle is solved. The additiona
 - Number of steps
 - “Restart game” button
 
-- [YouTube demonstration video](https://youtu.be/XU5qI-_Zh4c)
+[YouTube demonstration video](https://youtu.be/XU5qI-_Zh4c)
