@@ -59,8 +59,10 @@ class _TimerWidgetState extends State<TimerWidget> {
           size: 32,
           color: Theme.of(context).primaryColor,
         ),
-        Text(
-          puzzleLogic.getDuration(puzzleLogic.seconds),
+        FittedBox(
+          child: Text(
+            puzzleLogic.getDuration(puzzleLogic.seconds),
+          ),
         ),
       ],
     );

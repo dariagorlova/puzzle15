@@ -31,8 +31,10 @@ class _StepsWidgetState extends State<StepsWidget> {
           size: 32,
           color: Theme.of(context).primaryColor,
         ),
-        Text(
-          puzzleLogic.steps.toString(),
+        FittedBox(
+          child: Text(
+            puzzleLogic.steps.toString(),
+          ),
         ),
       ],
     );
