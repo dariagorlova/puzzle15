@@ -114,9 +114,7 @@ class MainPageState extends State<MainPage>
                   Positioned(
                     top: middleHeight - puzzleWidgetSize / 2,
                     left: middleWidth - puzzleWidgetSize / 2,
-                    child: (buttonIndex != BTN_PRESSED.none &&
-                            MediaQuery.of(context).orientation ==
-                                Orientation.landscape)
+                    child: (buttonIndex != BTN_PRESSED.none)
                         ? const Text('')
                         :
                         // ignore: prefer_const_constructors
